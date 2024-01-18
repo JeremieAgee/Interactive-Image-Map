@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Gaming Desk</h1>
+        <p>Click the item you need from the image bellow</p>
+    </header>
+    <main>
+        <div id="map-area">
+            <!---->
+        <img
+        width="600"
+        height="400"
+        usemap="#gaming-needs"
+        src="./img/interactive-map.png"
+        alt="Interactive Map of a Gaming setup"
+        />
+        <map id="gaming-needs" name="gaming-needs">
+          <area
+            shape="rect"
+            coords="485, 135, 535, 275"
+            href=""
+            alt=""
+          /> 
+          <area
+            shape="rect"
+            coords="260, 135, 442, 235"
+            href=""
+            alt="monitor"
+          /> 
+          <area
+            shape="rect"
+            coords="200, 285, 350, 320"
+            href=""
+            alt="keyboard"
+          /> 
+          <area
+            shape="rect"
+            coords="50, 100, 160, 400"
+            href=""
+            alt="chair"
+          /> 
+          <area
+            shape="circle"
+            coords="510, 300, 25 "
+            href=""
+            alt="headset"
+          /> 
+          <area
+            shape="circle"
+            coords="440, 300, 15"
+            href=""
+            alt="mouse"
+          /> 
+          <area
+            shape="circle"
+            coords="350, 250, 25"
+            href=""
+            alt="microphone"
+          />
+            </div>  
+        </map>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

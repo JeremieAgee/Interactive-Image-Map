@@ -1,0 +1,8 @@
+.highlight-area {
+    position: absolute;
+    border: 2px solid red;
+    pointer-events: none;
+  }
+  #map-area{
+    position: relative;
+  }
